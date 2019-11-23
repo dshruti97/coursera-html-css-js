@@ -1,0 +1,86 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #151E3F;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: Helvetica, serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+#our-menu-title + div {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-bottom:25px;
+}
+
+section {
+  background-color: #C1DFF0;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+section > h3 {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+section > p {
+  padding: 10px;
+}
+/* END MAIN CONTENT */
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 767px) {
+  #collapsable-nav a{
+    font-size: 1.2em;
+  }
+}
